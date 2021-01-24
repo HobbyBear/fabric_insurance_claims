@@ -288,8 +288,7 @@ packageChaincode
 ## Install chaincode on peer0.org1 and peer0.org2
 infoln "Installing chaincode on peer0.org1..."
 installChaincode 1
-infoln "Install chaincode on peer0.org2..."
-installChaincode 2
+
 
 ## query whether the chaincode is installed
 queryInstalled 1
